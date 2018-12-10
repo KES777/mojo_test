@@ -1,13 +1,14 @@
 package MyApp::Schema::Result;
 
-use Modern::Perl;
+# use Modern::Perl;
 
 # use Mojo::Base -strict;
 # https://mojolicious.org/perldoc/Mojo/Base#DESCRIPTION
 
-# use utf8;
-# use strict;
-# use warnings;
+# use 'utf8';
+use strict;
+use warnings;
+
 use base 'DBIx::Class::Core';
 
 # Put useful things here which will be available from any Result:: class

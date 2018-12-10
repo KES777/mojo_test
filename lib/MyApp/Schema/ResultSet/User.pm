@@ -1,6 +1,8 @@
 package MyApp::Schema::ResultSet::User;
 
-use Modern::Perl;
+use strict;
+use warnings;
+
 use base 'MyApp::Schema::ResultSet';
 
 

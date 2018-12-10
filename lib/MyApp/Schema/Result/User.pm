@@ -1,6 +1,8 @@
 package MyApp::Schema::Result::User;
 
-use Modern::Perl;
+use strict;
+use warnings;
+
 use base 'MyApp::Schema::Result';
 
 
@@ -40,3 +42,8 @@ $T->add_unique_constraint([ 'email' ]);
 
 
 1;
+
+# my $dsUser =  $->db->model( 'User' )->active;
+# while( my $user =  $dsUser->next ) {
+# 	DDP::p( $user );
+# }

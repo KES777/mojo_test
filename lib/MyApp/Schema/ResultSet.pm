@@ -1,6 +1,8 @@
-package App::Schema::ResultSet;
+package MyApp::Schema::ResultSet;
 
-use Modern::Perl;
+use strict;
+use warnings;
+
 use base 'DBIx::Class::ResultSet';
 
 # Put useful things here which will be available from any Result:: class
