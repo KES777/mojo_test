@@ -1,6 +1,6 @@
 package MyApp::Schema;
 
-our $VERSION =  2;
+our $VERSION =  3;
 
 
 use strict;

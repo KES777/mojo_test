@@ -8,7 +8,7 @@ use base 'MyApp::Schema::Result';
 
 
 my $T =  __PACKAGE__;
-$T->table( 'user' );
+$T->table( 'users' );
 
 
 $T->add_columns(
