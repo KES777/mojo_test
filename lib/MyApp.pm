@@ -5,20 +5,20 @@ use MyApp::Helper;
 
 # This method will run once at server start
 sub startup {
-  my $self = shift;
+  my $app = shift;
 
   # Load configuration from hash returned by config file
-  my $config = $self->plugin( 'Config',
-    file => 'etc/' .$self->moniker .'.conf'
+  my $config = $app->plugin( 'Config',
+    file => 'etc/' .$app->moniker .'.conf'
   );
 
-  MyApp::Helper::add_helpers( $self );
+  MyApp::Helper::add_helpers( $app );
 
   # Configure the application
-  $self->secrets($config->{secrets});
+  $app->secrets($config->{secrets});
 
   # Router
-  my $r = $self->routes;
+  my $r = $app->routes;
 
   # Normal route to controller
   $r->get('/')->to('example#welcome');
