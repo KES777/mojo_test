@@ -240,6 +240,17 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Storable 0
       perl 5.008001
+  Clone-PP-1.07
+    pathname: N/NE/NEILB/Clone-PP-1.07.tar.gz
+    provides:
+      Clone::PP 1.07
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      perl 5.006
+      strict 0
+      vars 0
+      warnings 0
   Config-Any-0.32
     pathname: H/HA/HAARG/Config-Any-0.32.tar.gz
     provides:
@@ -887,6 +898,29 @@ DISTRIBUTIONS
       Class::Accessor::Chained::Fast 0
       Test::Exception 0
       Test::More 0
+  Data-Printer-0.40
+    pathname: G/GA/GARU/Data-Printer-0.40.tar.gz
+    provides:
+      DDP undef
+      Data::Printer 0.40
+      Data::Printer::Filter undef
+      Data::Printer::Filter::DB undef
+      Data::Printer::Filter::DateTime undef
+      Data::Printer::Filter::Digest undef
+    requirements:
+      Carp 0
+      Clone::PP 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      File::HomeDir 0.91
+      File::Spec 0
+      File::Temp 0
+      Package::Stash 0.3
+      Scalar::Util 0
+      Sort::Naturally 0
+      Term::ANSIColor 3
+      Test::More 0.88
+      version 0.77
   Data-UUID-1.221
     pathname: R/RJ/RJBS/Data-UUID-1.221.tar.gz
     provides:
@@ -3235,6 +3269,13 @@ DISTRIBUTIONS
       Lingua::Stem::Snowball::Se 1.2
     requirements:
       Test::More 0.42
+  Sort-Naturally-1.03
+    pathname: B/BI/BINGOS/Sort-Naturally-1.03.tar.gz
+    provides:
+      Sort::Naturally 1.03
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5
   Specio-0.43
     pathname: D/DR/DROLSKY/Specio-0.43.tar.gz
     provides:
