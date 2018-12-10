@@ -660,6 +660,20 @@ DISTRIBUTIONS
       File::Find 0
       Path::Class 0
       perl 5.006001
+  DBIx-Class-InflateColumn-Serializer-0.09
+    pathname: M/MR/MRUIZ/DBIx-Class-InflateColumn-Serializer-0.09.tar.gz
+    provides:
+      DBIx::Class::InflateColumn::Serializer 0.09
+      DBIx::Class::InflateColumn::Serializer::JSON 0.09
+      DBIx::Class::InflateColumn::Serializer::Storable 0.09
+      DBIx::Class::InflateColumn::Serializer::YAML 0.09
+    requirements:
+      DBIx::Class 0
+      ExtUtils::MakeMaker 0
+      JSON::MaybeXS 1.002005
+      YAML 0
+      namespace::clean 0
+      perl 5.008000
   DBIx-Class-Migration-0.060
     pathname: J/JJ/JJNAPIORK/DBIx-Class-Migration-0.060.tar.gz
     provides:
