@@ -30,11 +30,11 @@ $T->add_columns(
 		data_type =>  'varchar',
 		size      =>  128,
 	},
-	# data =>  {
-	# 	data_type        =>  'json',
-	# 	serializer_class =>  'JSON',
-	# 	default_value    =>  \"'{}'::json",
-	# },
+	data =>  {
+		data_type        =>  'json',
+		serializer_class =>  'JSON',
+		default_value    =>  \"'{}'::json",
+	},
 );
 
 $T->set_primary_key( 'id' );
