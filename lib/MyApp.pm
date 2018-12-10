@@ -1,6 +1,8 @@
 package MyApp;
 use Mojo::Base 'Mojolicious';
 
+use MyApp::Helper;
+
 # This method will run once at server start
 sub startup {
   my $self = shift;
