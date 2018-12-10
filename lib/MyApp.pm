@@ -8,7 +8,11 @@ sub startup {
   my $self = shift;
 
   # Load configuration from hash returned by config file
-  my $config = $self->plugin('Config');
+  my $config = $self->plugin( 'Config',
+    file => 'etc/' .$self->moniker .'.conf'
+  );
+
+  MyApp::Helper::add_helpers( $self );
 
   # Configure the application
   $self->secrets($config->{secrets});
