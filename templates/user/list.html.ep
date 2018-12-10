@@ -1,0 +1,3 @@
+% while( my $user =  $rows->next ) {
+	<%= $user->email %>
+% }
